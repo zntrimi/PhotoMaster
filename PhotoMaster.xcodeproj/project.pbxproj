@@ -13,6 +13,8 @@
 		DFD3909A26496AEF00B74B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD3909826496AEF00B74B8E /* Main.storyboard */; };
 		DFD3909C26496AF100B74B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD3909B26496AF100B74B8E /* Assets.xcassets */; };
 		DFD3909F26496AF100B74B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD3909D26496AF100B74B8E /* LaunchScreen.storyboard */; };
+		DFD390A72649776F00B74B8E /* furo_ducky.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD390A62649776F00B74B8E /* furo_ducky.png */; };
+		DFD390A926497F5200B74B8E /* familyguy.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD390A826497F5200B74B8E /* familyguy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DFD3909B26496AF100B74B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD3909E26496AF100B74B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD390A026496AF100B74B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD390A62649776F00B74B8E /* furo_ducky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furo_ducky.png; sourceTree = "<group>"; };
+		DFD390A826497F5200B74B8E /* familyguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = familyguy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DFD3909426496AEF00B74B8E /* SceneDelegate.swift */,
 				DFD3909626496AEF00B74B8E /* ViewController.swift */,
 				DFD3909826496AEF00B74B8E /* Main.storyboard */,
+				DFD390A62649776F00B74B8E /* furo_ducky.png */,
+				DFD390A826497F5200B74B8E /* familyguy.png */,
 				DFD3909B26496AF100B74B8E /* Assets.xcassets */,
 				DFD3909D26496AF100B74B8E /* LaunchScreen.storyboard */,
 				DFD390A026496AF100B74B8E /* Info.plist */,
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD390A926497F5200B74B8E /* familyguy.png in Resources */,
+				DFD390A72649776F00B74B8E /* furo_ducky.png in Resources */,
 				DFD3909F26496AF100B74B8E /* LaunchScreen.storyboard in Resources */,
 				DFD3909C26496AF100B74B8E /* Assets.xcassets in Resources */,
 				DFD3909A26496AEF00B74B8E /* Main.storyboard in Resources */,
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28BL7VZRG3;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28BL7VZRG3;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
